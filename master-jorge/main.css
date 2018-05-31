@@ -1,0 +1,148 @@
+body {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    flex-flow: column;
+    background-color:#039be5;
+}
+main {
+    width: 50%;
+    border-radius: 20px;
+    display: grid;
+    grid-template-columns: 85% 15%;
+    background-color: #4fc3f7;
+    overflow: auto;
+}
+#paleta {
+    display: flex;
+    flex-direction: column-reverse;
+}
+#paletaColores {
+    display: flex;
+    align-items: center;
+    flex-flow: column;
+    margin-top: 50px;
+ 
+}
+.circulo {
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+}
+#circuloRojo {
+    background-color: red;
+}
+#circuloBlanco {
+    background-color: white;
+    margin-top: 25px;
+}
+#circuloNegro {
+    background-color: black;
+    margin-top: 25px;
+}
+
+#circuloAmarillo {
+    background-color: yellow;
+    margin-top: 25px;
+}
+
+#circuloNaranja {
+    background-color: orange;
+    margin-top: 25px;
+}
+
+#circuloMarron {
+    background-color: brown;
+    margin-top: 25px;
+}
+
+#circuloAzul {
+    background-color: blue;
+    margin-top: 25px;
+}
+
+#circuloVerde {
+    background-color: green;
+    margin-top: 25px;
+}
+
+#vereficar {
+    height: 50px;
+    width: 50px;
+    margin-top: 25px;
+    color: green;
+}
+
+#vereficar:hover {
+    cursor: pointer;
+}
+
+#circulosRellenar, #circulosComprobar {
+    display: inline-block;
+}
+
+.circuloRellenar {
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    box-shadow: 0 0 20px black;
+    display: inline-block;
+    margin: 20px;
+    cursor: pointer;
+}
+
+.circuloComprobar {
+     border-radius: 50%;
+    height: 20px;
+    width: 20px;
+    box-shadow: 0 0 20px black;
+    display: inline-block;
+    margin: 20px;
+}
+
+#acabado {
+    display: none;
+    position: absolute;
+    width: 50%;
+    height: 800px;
+    text-align: center;
+}
+
+#acabado h2 {
+    font-size: 5em;
+    color: black;
+}
+
+
+#acabado a {
+    text-decoration: none;
+    color: black;
+    background-color: #F9A825;
+    padding: 20px;
+    margin: 20px;
+}
+
+#acabado a:hover, #jugar:hover {
+    background-color: #FFEB3B;
+    transition: all 0.7s ease;
+}
+
+#contenidoPrincipal {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#jugar {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 50px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+}
